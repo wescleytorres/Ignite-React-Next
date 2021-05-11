@@ -7,7 +7,7 @@ type User = {
   created_at: string;
 }
 
-export function makeServer(){
+export function makeServer() {
   const server = createServer({
     serializers: {
       application: ActiveModelSerializer
@@ -20,7 +20,7 @@ export function makeServer(){
     factories: {
       user: Factory.extend({
         name(i: number) {
-          return `John Doe ${i + 1}`
+          return `JohnDoe ${i + 1}`
         },
         email() {
           return faker.internet.email().toLowerCase();
