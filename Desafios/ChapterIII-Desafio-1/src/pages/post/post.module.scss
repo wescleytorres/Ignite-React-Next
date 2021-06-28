@@ -1,0 +1,37 @@
+
+.post {
+  margin: 5rem 0;
+  h1 {
+    margin-bottom: 1.563rem;
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  article {
+    h2 {
+      font-size: 36px;
+      line-height: 140%;
+      margin: 3.5rem 0;
+    }
+    div {
+      color: var(--gray-200)
+    }
+  }
+}
+
+.subposts {
+  color: var(--gray-300);
+  display: flex;
+  div {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 0.625rem;
+    }
+
+  }
+  div + div {
+    margin-left: 1.688rem;
+  }
+}
