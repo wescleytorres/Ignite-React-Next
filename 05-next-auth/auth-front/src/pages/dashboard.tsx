@@ -25,7 +25,7 @@ export default function Dashboard() {
 
     <button onClick={signOut}>Sign Out</button>
     <Can permissions={['metrics.list']}>
-      <div>Métricas</div>
+      <div>Métricas baby</div>
     </Can>
     </>
   )
